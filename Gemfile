@@ -19,3 +19,7 @@ end
 gem 'jquery-rails', '2.0.2'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
    gem 'therubyracer', :platforms => :ruby
+
+group :production do
+	gem 'pg', '0.12.2'
+end
